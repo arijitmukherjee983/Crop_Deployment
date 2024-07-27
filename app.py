@@ -16,7 +16,7 @@ def index():
     return render_template('index.html')
 
 
-@app.route("/predict", methods=['POST'])
+@app.route("/predict", methods=['GET'])
 def predict():
     N = int(request.form['Nitrogen'])
     P = int(request.form['Phosporus'])
