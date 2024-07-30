@@ -27,7 +27,7 @@ init_db()
 
 @app.route('/')
 def index():
-    return render_template('index1.html')
+    return render_template('index.html')
 
 
 @app.route('/predict', methods=['POST'])
@@ -62,7 +62,7 @@ def predict():
     except Exception as e:
         result = f"An error occurred: {e}"
 
-    return render_template('index1.html', result=result)
+    return render_template('index.html', result=result)
 
 
 @app.route('/response', methods=['POST'])
@@ -77,7 +77,7 @@ def response():
     except Exception as e:
         response_message = f"An error occurred: {e}"
 
-    return render_template('index1.html', response_message=response_message)
+    return render_template('index.html', response_message=response_message)
 
 
 @app.route('/contact')
