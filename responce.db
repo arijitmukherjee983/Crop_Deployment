@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS responses (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_response TEXT
+);
+INSERT INTO responses VALUES ('User feedback here');
+SELECT * FROM responses;
