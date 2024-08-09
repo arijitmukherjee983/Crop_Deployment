@@ -12,12 +12,16 @@ The Crop Recommendation System is an advanced web-based platform designed to ass
 
 ## Project Structure
 
+- `index.html`: The main landing page of the application.
 - `about.html`: Contains information about the project and its goals.
 - `contact.html`: Includes contact details or a form for reaching out to agricultural experts.
+- `static/img/`: Directory for static images.
+  - `img.jpeg`: An image(farmland) used in the application.
 - `requirement.txt`: Lists Python dependencies required for the project.
 - `app.py`: Main Python script implementing the web application’s logic.
 - `vercel.json`: Configuration file for Vercel deployment.
 - `crop_recommendation.csv`: Contains data on crops, soil, and climate conditions used by the recommendation system.
+
 
 ## Installation
 
